@@ -8,3 +8,5 @@ Version 0.1
 
 MacOS Download:
 http://www.AJYoungDP.com/downloads/Lutometry-MacOS-v0.1.zip
+
+<img src = "source/images/lutometry-screenshot-version0.1.jpg">
