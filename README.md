@@ -1,5 +1,7 @@
 # Lutometry
-Visualize LUTs as a graph or cube. Open source, built on top of pyLUT.
+Visualize LUTs as a graph or cube. Open source, built on top of <a href = "https://github.com/gregcotten/pylut">pyLUT</a>.
+
+Released under the MIT License. All images are Creative Commons.
 
 The latest stable version for Mac OS:
 Version 0.1
