@@ -8,6 +8,7 @@ The latest stable version for Mac OS:
 <br><b>NOTE:</b>Currently only loads .cube files
 
 MacOS Download:
-http://www.AJYoungDP.com/downloads/Lutometry-MacOS-v0.1.zip
+<br>NOTE: The app currently works on some Mac's, but not others. Users have had success when they have Python 3.9.0 installed
+<br>http://www.AJYoungDP.com/downloads/Lutometry-MacOS-v0.1.zip
 
 <img src = "source/images/lutometry-screenshot-version0.1.jpg">
