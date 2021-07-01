@@ -80,6 +80,9 @@ Here are the steps to install the program for use with Python and a command line
     <br>[desired_name_of_your_virtual_environment] = whatever name you want to call the virtual environemnt. Shorter names are easier to type in the console. I recommend something like "lutenv" or "VirtLut".
   </li>
   <li>
+    Run the newly created virtual environment
+    <br><code>source [desired_name_of_your_virtual_environment]/bin/activate</code>
+  <li>
     In the virtual environment, use Pip install the necessary modules (listed above).The program will send an error message and quit if a module is missing. Check the command line interface for which ones are missing:
     <ul>
       <li>
