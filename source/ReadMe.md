@@ -62,13 +62,30 @@ Here are the steps to install the program for use with Python and a command line
     Install Pyenv via Homebrew
   </li>
   <li>
-    Install Python 3.9 via Pyenv (also the framework if building from source)
+    Install Python 3.9.0 via Pyenv (also the framework if building from source)
   </li>
   <li>
     Create a virtual environment
   </li>
   <li>
-    In the virtual environment, use Pip install the necessary modules (listed above). The program will send an error message and quit if a module is missing. Check the command line interface for which ones are missing
+    In the virtual environment, use Pip install the necessary modules (listed above).The program will send an error message and quit if a module is missing. Check the command line interface for which ones are missing:
+    <ul>
+      <li>
+        <code>pip install --only-binary :all: numpy</code>
+      </li>
+      <li>
+        <code>pip install progress</code>
+      </li>
+      <li>
+        <code>pip install matplotlib</code>
+      </li>
+      <li>
+        <code>pip install pyqt5</code>
+      </li>
+      <li>
+        <code>pip install kdtree</code>
+      </li>
+    </ul>
   </li>
   <li>
     In the virtual environment, run the program
