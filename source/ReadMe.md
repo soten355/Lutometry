@@ -14,25 +14,25 @@ This directory contains the source code for <b>Lutometry</b>
   </li>
 </ul>
 <hr>
-<h2>How to install</h2>
+<h1>How to use the source code</h1>
 I highly recommend using this python app in a <a href = "https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> with Python 3.9 and <a href = "https://realpython.com/intro-to-pyenv/">Pyenv</a>. Additionally, if you're attempting to build from source, you'll need to have the python framework in your Pyenv (<a href = "https://www.froehlichundfrei.de/blog/2014-11-30-my-transition-to-python3-and-pyenv-goodby-virtualenvwrapper/">how to here</a>).
 
 <br>Installation requirements:
 <ul>
   <li>
-    Python 3.9
+    <a href = "https://www.python.org/">Python 3.9+</a>
   </li>
   <li>
-    Homebrew [Mac or Linux users]
+    <a href = "https://brew.sh/">Homebrew</a> [Mac or Linux users]
   </li>
   <li>
-    Pip
+    <a href = "https://pypi.org/project/pip/">Pip</a>
   </li>
   <li>
-    Pyenv
+    <a href = "https://github.com/pyenv/pyenv">Pyenv</a>
   </li>
   <li>
-    Xcode [Mac users]
+    <a href = "https://developer.apple.com/xcode/">Xcode</a> [Mac users]
   </li>
 </ul>
 
@@ -55,7 +55,7 @@ Python modules needed via Pip:
   </li>
 </ul>
 
-Here are the steps to install the program for use with Python and a command line interface:
+<h2>How to use the source code on a Mac</h2>
 
 <ol>
   <li>
@@ -67,12 +67,12 @@ Here are the steps to install the program for use with Python and a command line
     <br><code>brew install pyenv</code>
   </li>
   <li>
-    Install Python 3.9.0 via Pyenv (also the framework if building from source)
-    <br>Without the framework:
+    Install Python 3.9.0 via Pyenv
+    <br>Without the framework (if you want to develop/run the program through Terminal):
     <br><code>pyenv install 3.9.0</code>
-    <br>With the framework:
+    <br>With the framework (if you want to build a standalone app of this program):
     <br><code>env PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv install 3.9.0</code>
-    <br>(Further tutorial on using frameworks and pyenv can be found<a href = "https://www.froehlichundfrei.de/blog/2014-11-30-my-transition-to-python3-and-pyenv-goodby-virtualenvwrapper/">here</a>)
+    <br>(Further tutorial on using frameworks and pyenv can be found <a href = "https://www.froehlichundfrei.de/blog/2014-11-30-my-transition-to-python3-and-pyenv-goodby-virtualenvwrapper/">here</a>)
   </li>
   <li>
     Create a virtual environment
@@ -83,10 +83,15 @@ Here are the steps to install the program for use with Python and a command line
     Run the newly created virtual environment
     <br><code>source [desired_name_of_your_virtual_environment]/bin/activate</code>
   <li>
-    In the virtual environment, use Pip install the necessary modules (listed above).The program will send an error message and quit if a module is missing. Check the command line interface for which ones are missing:
+    In the virtual environment, use Pip install the necessary modules (listed below).The program will send an error message and quit if a module is missing. Check the command line interface for which ones are missing.
     <ul>
       <li>
         <code>pip install --only-binary :all: numpy</code>
+        <ul>
+          <li>
+            (installing NumPy like this is the only way for the program to work on other Mac's if you are building from source into a standalone app)
+          </li>
+        </ul>
       </li>
       <li>
         <code>pip install progress</code>
@@ -104,5 +109,6 @@ Here are the steps to install the program for use with Python and a command line
   </li>
   <li>
     In the virtual environment, run the program
+    <br><code>python lutometry.py</code>
   </li>
 </ol>
