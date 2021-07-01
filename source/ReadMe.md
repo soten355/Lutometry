@@ -39,16 +39,16 @@ I highly recommend using this python app in a <a href = "https://realpython.com/
 Python modules needed via Pip:
 <ul>
   <li>
-    NumPy
+    <a href = "https://numpy.org/">NumPy</a>
   </li>
   <li>
-    Progress
+    <a href = "https://pypi.org/project/progress/">Progress</a>
   </li>
   <li>
-    matplotlib
+    <a href = "https://matplotlib.org/">matplotlib</a>
   </li>
   <li>
-    PyQt5
+    <a href = "https://pypi.org/project/PyQt5/">PyQt5</a>
   </li>
   <li>
     KDTree
