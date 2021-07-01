@@ -12,7 +12,7 @@ http://www.AJYoungDP.com/downloads/Lutometry-MacOS-v0.1.zip
 <h3>Linux</h3>
 Nothing yet. Please contribute!
 <h3>Windows</h3>
-Nothin yet. Please contribute!
+Nothing yet. Please contribute!
 
 <h2>Screenshots</h2>
 <img src = "source/images/lutometry-screenshot-version0.1.jpg">
