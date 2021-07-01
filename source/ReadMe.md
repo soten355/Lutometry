@@ -15,7 +15,7 @@ This directory contains the source code for <b>Lutometry</b>
 </ul>
 <hr>
 <h2>How to install</h2>
-I highly recommend using this python app in a <a href = "https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> with Python 3.9 and Pyenv. Additionally, if you're attempting to build from source, you'll need to have the python framework in your Pyenv (<a href = "https://www.froehlichundfrei.de/blog/2014-11-30-my-transition-to-python3-and-pyenv-goodby-virtualenvwrapper/">how to here</a>).
+I highly recommend using this python app in a <a href = "https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> with Python 3.9 and <a href = "https://realpython.com/intro-to-pyenv/">Pyenv</a>. Additionally, if you're attempting to build from source, you'll need to have the python framework in your Pyenv (<a href = "https://www.froehlichundfrei.de/blog/2014-11-30-my-transition-to-python3-and-pyenv-goodby-virtualenvwrapper/">how to here</a>).
 
 <br>Installation requirements:
 <ul>
@@ -30,6 +30,9 @@ I highly recommend using this python app in a <a href = "https://realpython.com/
   </li>
   <li>
     Pyenv
+  </li>
+  <li>
+    Xcode [Mac users]
   </li>
 </ul>
 
@@ -56,13 +59,20 @@ Here are the steps to install the program for use with Python and a command line
 
 <ol>
   <li>
-    Install Homebrew
+    Install Homebrew [If not already installed]
+    <br><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>
   </li>
   <li>
     Install Pyenv via Homebrew
+    <br><code>brew install pyenv</code>
   </li>
   <li>
     Install Python 3.9.0 via Pyenv (also the framework if building from source)
+    <br>Without the framework:
+    <br><code>pyenv install 3.9.0</code>
+    <br>With the framework:
+    <br><code>env PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv install 3.9.0</code>
+    <br>(Further tutorial on using frameworks and pyenv can be found<a href = "https://www.froehlichundfrei.de/blog/2014-11-30-my-transition-to-python3-and-pyenv-goodby-virtualenvwrapper/">here</a>)
   </li>
   <li>
     Create a virtual environment
