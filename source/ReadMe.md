@@ -23,7 +23,7 @@ I highly recommend using this python app in a <a href = "https://realpython.com/
     Python 3.9
   </li>
   <li>
-    Homebrew
+    Homebrew [Mac or Linux users]
   </li>
   <li>
     Pip
