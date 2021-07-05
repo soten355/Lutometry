@@ -15,7 +15,10 @@ Nothing yet. Please contribute!
 Nothing yet. Please contribute!
 
 <h2>Screenshots</h2>
+2D Graph:
 <img src = "source/images/lutometry-screenshot-version0.1.jpg">
+3D Cube:
+<br><img src = "source/images/lutometry-screenshot-cube-version0.1.jpg">
 
 <h2>Source Code</h2>
 Modify, tweak, or fix the code! It's free and open source. Get started:
