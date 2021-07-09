@@ -139,19 +139,6 @@ Python modules needed via Pip:
     The <b>Lutometry</b> app file will be in dist/Lutometry.app
   </li>
   <li>
-    The images used by Lutometry were not installed into the app via <i>py2app</i>. We'll need to manually install them.
-    <br>Right click the <b>Lutometry</b> app file and select "Show Package Contents"
-  </li>
-  <li>
-    Navigate to:
-    <br><code>Contents > Resources ></code>
-  </li>
-  <li>
-    Copy the entire "images/" folder to "Contents/Resources/"
-    <br>Once copied, the app should look like this:
-    <br><code>Contents > Reources > images > [all of the necessary images Lutometry needs]</code>
-  </li>
-  <li>
     <b>Lutometry</b> is ready for use!
   </li>
 </ol>
