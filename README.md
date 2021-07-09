@@ -9,8 +9,9 @@ http://www.AJYoungDP.com/downloads/Lutometry-MacOS-v0.1.zip
 <br>The latest stable version for Mac OS:
 <br>Version 0.1
 <br><b>NOTE:</b>Currently only loads .cube files
-<br>Lutometry.log file located within the app. To access the log file, right click <b>Lutometry</b> and select "Show Pacakge Contents":
+<!-- for version 0.2 <br>Lutometry.log file located within the app. To access the log file, right click <b>Lutometry</b> and select "Show Pacakge Contents":
 <br><code>Contents > Resources > Lutometry.log</code>
+-->
 <h3>Linux</h3>
 Nothing yet. Please contribute!
 <h3>Windows</h3>
