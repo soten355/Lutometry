@@ -8,7 +8,7 @@ Usage:
 from setuptools import setup
 
 APP = ['Lutometry.py']
-DATA_FILES = []
+DATA_FILES = [('', ['images'])]
 OPTIONS = {
     'iconfile' : 'images/LUTometryIcon.icns',
     'packages': ['numpy', 'matplotlib', 'progress', 'kdtree', 'PyQt5'],
