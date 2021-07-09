@@ -12,6 +12,9 @@ This directory contains the source code for <b>Lutometry</b>
   <li>
     pylut.py - The updated and modified pyLUT module
   </li>
+  <li>
+    setup.py - The setup file used by py2app to build from source on Mac
+  </li>
 </ul>
 <hr>
 <h1>How to use the source code</h1>
