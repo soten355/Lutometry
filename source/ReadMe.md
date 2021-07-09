@@ -112,3 +112,44 @@ Python modules needed via Pip:
     <br><code>python lutometry.py</code>
   </li>
 </ol>
+
+<h2>How to build from source on Mac</h2>
+
+<ol>
+  <li>
+    Make sure you're running the virtual environment. If not, activate the virtual environment:
+    <br><code>source [desired_name_of_your_virtual_environment]/bin/activate</code>
+  </li>
+  <li>
+    Install py2app via pip:
+    <br><code>pip install py2app</code>
+  </li>
+  <li>
+    Make sure you have the setup.py from Lutometry's github file in the same folder as lutometry.py.
+    <br>(If you've installed any additional modules beyond what Lutometry needs, you'll need to edit the setup.py file to include those additional modules)
+  </li>
+  <li>
+    Build the app:
+    <br><code>python setup.py py2app</code>
+  </li>
+  <li>
+    The <b>Lutometry</b> app file will be in dist/Lutometry.app
+  </li>
+  <li>
+    The images used by Lutometry were not installed into the app via <i>py2app</i>. We'll need to manually install them.
+    <br>Right click the <b>Lutometry</b> app file and select "Show Package Contents"
+  </li>
+  <li>
+    Navigate to:
+    <br><code>Contents > Resources ></code>
+  </li>
+  <li>
+    Copy the entire "images/" folder to "Contents/Resources/"
+    <br>Once copied, the app should look like this:
+    <br><code>Contents > Reources > images > [all of the necessary images Lutometry needs]</code>
+  </li>
+  <li>
+    <b>Lutometry</b> is ready for use!
+  </li>
+</ol>
+  
