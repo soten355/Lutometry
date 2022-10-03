@@ -74,7 +74,7 @@ Python modules needed via Pip:
     <br>Without the framework (if you want to develop/run the program through Terminal):
     <br><code>pyenv install 3.9.0</code>
     <br>With the framework (if you want to build a standalone app of this program):
-    <br><code>env PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv install 3.9.0</code>
+    <br><code>pyenv PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv install 3.9.0</code>
     <br>(Further tutorial on using frameworks and pyenv can be found <a href = "https://www.froehlichundfrei.de/blog/2014-11-30-my-transition-to-python3-and-pyenv-goodby-virtualenvwrapper/">here</a>)
   </li>
   <li>
